@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing:  border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    line-height: var(--line-height-normal);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-synthesis: none;
+}
+
+/* MÍDIA DEFAULT */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* HERANÇA DE FONTES PARA MENUS */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* QUEBRA DE PALAVRA */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* ISOLAMENTO DE ELEMENTOS PARA CAMADAS */
+#root {
+    isolation: isolate;
+}
+
+/* REGRA PARA LISTAS */
+ul [role='list'],
+ol [role='list'] {
+    list-style: none;
+}
+
+/* SCROLL SUAVE */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+}
