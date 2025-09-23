@@ -16,76 +16,60 @@
     <title>Meu Portifólio</title>
 </head>
 
-    <header class="header">
 
-        <div class="header-container">
-            <div class="logo">
-                <a href="/" class="logo-link">
-                    <i class="ph ph-code"></i>
-                    <span>Meu Portifólio</span>
-                </a>
-            </div>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1 class="nome">Domingos Muratori</h1>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#sobre" class="menu-link">
 
-        <nav class="nav" id="nav">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="/" class="nav-link">
-                        <i class="ph ph-user"></i>
-                        <span>Sobre mim</span>
-                    </a>
-                </li>
-
-                <li class="nav-item has-submenu">
-                    <a href="/" class="nav-link">
-                        <i class="ph ph-projector-screen-chart"></i>
-                        <span>Projetos</span>
-                        <i class="ph ph-caret-down submenu-arrow"></i>
-                    </a>
-
-                    <ul class="submenu-list">
-                        <li class="submenu-item">
-                            <a href="" class="submenu-link">
-                                <i class="ph ph-calculator"></i>
-                                <span>Calculadora</span>
+                                <span>Sobre</span> 
                             </a>
                         </li>
-                        <li class="submenu-item">
-                            <a href="" class="submenu-link">   
-                                <i class="ph ph-file"></i>
-                                <span>Blog</span>
+                        <li class="menu-item">
+                            <a href="#projetos" class="menu-link">
+                                <span>Projetos</span>
                             </a>
                         </li>
-                        <li class="submenu-item">
-                            <a href="" class="submenu-link">
-                                <i class="ph ph-browsers"></i>
-                                <span>Landing Page</span>
+                        <li class="menu-item">
+                            <a href="#contato" class="menu-link">
+                                <span>Contato</span>
                             </a>
                         </li>
                     </ul>
-                </li>
-
-                <li class="menu-item">
-                    <a href="/" class="menu-link">
-                        <i class="ph ph-phone"></i>
-                        <span>Contato</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <body>
-        
+                </nav>
+                <div class="social-icons">
+                    <a href="https://github.com/DomingosMt" target="_blank"><i class="ph ph-github-logo"></i></a>
+                    <a href="https://linkedin.com/in/DomingosMt" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+        </header>
         <main>
-            <section>
-
+            <section class="sobre" id="sobre">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Me chamo Domingos Muratori, sou um desenvolvedor júnior apaixonado por tecnologia e programação. Este é meu portfólio pessoal onde compartilho meus projetos e experiências!</p>
+            </section>
+            <section class="projetos" id="projetos">
+                <h2>Projetos</h2>
+                <div class="projetos-lista">
+                    <div class="projeto1">
+                        <h3>Cálculo de Médias Escolares em C</h3>
+                        <p>Este projeto é um sistema interativo em C para cálculo de médias escolares, permitindo ao usuário inserir notas e calcular médias bimestrais, trimestrais e semestrais de forma simples e rápida.</p>
+                        <a href="https://github.com/DomingosMt/Calculo_Medias_Escolar" target="_blank">Ver mais</a>
+                    </div>
+                </div>
+            </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Entre em contato pelo e-mail: <a href="mailto:domingosmuratori@outlook.com">domingosmuratori@outlook.com</a></p>
             </section>
         </main>
-
-    <footer>
-
-    </footer>
-
+        <footer>
+            <p>&copy; 2025 DomingosMT. Todos os direitos reservados.</p>
+        </footer>
     </body>
 
 </html>
